@@ -12,6 +12,10 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0.rc1'
 
+gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
+
+gem 'protected_attributes'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.1.1'
 
